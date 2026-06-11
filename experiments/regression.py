@@ -47,3 +47,5 @@ class RegressionTestSuite:
             "avg_faithfulness": avg_faithfulness,
             "details": results
         }
+
+# Automated benchmark testing framework.
