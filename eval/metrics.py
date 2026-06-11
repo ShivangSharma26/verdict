@@ -36,3 +36,5 @@ def get_agent_success_rate(project_id: int):
     if result.result_rows:
         return result.result_rows[0][0]
     return None
+
+# Analytics queries for latency and cost.
