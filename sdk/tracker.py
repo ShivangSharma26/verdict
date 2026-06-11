@@ -56,3 +56,5 @@ def track_llm(model: str, prompt_version: str = "v1", project_id: int = 1):
             return result
         return wrapper
     return decorator
+
+# Developer SDK for instrumenting AI apps.
