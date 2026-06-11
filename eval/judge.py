@@ -66,3 +66,5 @@ def evaluate_trace(prompt: str, response: str) -> Dict[str, Any]:
             "relevance_score": None,
             "hallucination_score": None
         }
+
+# LLM-as-a-judge using Groq LLaMA-3.
