@@ -57,3 +57,5 @@ if __name__ == "__main__":
         print(f"Answer: {response}")
         print(f"Usage: {p_tokens} prompt tokens, {c_tokens} completion tokens")
         print("-" * 50)
+
+# Ensure Docker infrastructure is running before executing this.
