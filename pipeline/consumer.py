@@ -95,3 +95,5 @@ def start_consumer():
 
 if __name__ == "__main__":
     start_consumer()
+
+# Kafka Consumer for trace evaluation and storage.
