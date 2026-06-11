@@ -43,3 +43,5 @@ def setup_tables():
 
 if __name__ == "__main__":
     setup_tables()
+
+# This module manages the ClickHouse connection and traces table.
