@@ -4,3 +4,5 @@ confluent-kafka
 clickhouse-connect
 psycopg2-binary
 sqlalchemy
+groq
+pydantic
