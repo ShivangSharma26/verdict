@@ -25,3 +25,5 @@ class PromptVersion(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
 
     project = relationship("Project")
+
+# This module defines the PostgreSQL metadata schema.
