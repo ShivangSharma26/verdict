@@ -34,3 +34,5 @@ def produce_trace(trace_dict: dict):
     )
     # Trigger any available delivery report callbacks
     producer.poll(0)
+
+# Kafka Producer for trace ingestion.
