@@ -10,3 +10,6 @@ Verdict is an AI Evaluation, Monitoring & Observability Platform.
 ## Setup
 Run `docker compose up -d` to start infrastructure.
 
+## Testing
+Run `mock_ai_app.py` to test the pipeline.
+
