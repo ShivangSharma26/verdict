@@ -7,3 +7,6 @@ Verdict is an AI Evaluation, Monitoring & Observability Platform.
 - Kafka Pipeline
 - ClickHouse Storage
 
+## Setup
+Run `docker compose up -d` to start infrastructure.
+
