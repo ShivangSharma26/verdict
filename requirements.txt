@@ -9,3 +9,4 @@ pydantic
 python-dotenv
 requests
 # Added for environment variables support
+pytest
