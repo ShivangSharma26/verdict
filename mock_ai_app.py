@@ -61,3 +61,5 @@ if __name__ == "__main__":
         print("-" * 50)
 
 # Ensure Docker infrastructure is running before executing this.
+
+# Note: Environment variables are loaded automatically.
