@@ -1,4 +1,6 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 from groq import Groq
 from typing import Dict, Any
 
@@ -41,7 +43,7 @@ def evaluate_trace(prompt: str, response: str) -> Dict[str, Any]:
 
     try:
         completion = client.chat.completions.create(
-            model="llama3-70b-8192",
+            model="llama-3.1-8b-instant",
             messages=[
                 {"role": "system", "content": "You are a strict, objective AI evaluation judge. Always return JSON."},
                 {"role": "user", "content": evaluation_prompt}

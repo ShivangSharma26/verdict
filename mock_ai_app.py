@@ -1,4 +1,6 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 from groq import Groq
 import sys
 from pathlib import Path
@@ -13,7 +15,7 @@ except Exception:
     print("WARNING: GROQ_API_KEY environment variable not set.")
     client = None
 
-MODEL_NAME = "llama3-70b-8192"
+MODEL_NAME = "llama-3.1-8b-instant"
 
 @track_llm(model=MODEL_NAME, prompt_version="v1", project_id=1)
 def answer_question(prompt: str) -> tuple[str, int, int]:
