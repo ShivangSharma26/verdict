@@ -70,3 +70,5 @@ def evaluate_trace(prompt: str, response: str) -> Dict[str, Any]:
         }
 
 # LLM-as-a-judge using Groq LLaMA-3.
+
+# Note: Environment variables are loaded automatically.
