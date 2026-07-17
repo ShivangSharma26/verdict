@@ -24,6 +24,9 @@ The primary objective of this project is to build an instrument panel for AI sys
 The system must capture traces without adding latency to the user's AI application, process thousands of events securely, and present real-time insights through observability dashboards.
 
 ## 🏗️ System Architecture & High-Level Design
+
+![Verdict System Architecture](systemdesign.png)
+
 Verdict relies on a high-throughput event pipeline and microservices architecture. Instead of blocking the user's application, it processes everything asynchronously:
 
 - **SDK Tracker:** A lightweight Python decorator that captures prompts, responses, latencies, and tokens entirely in the background.
