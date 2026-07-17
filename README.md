@@ -4,6 +4,16 @@ An intelligent, high-performance monitoring platform designed to measure AI qual
 
 Built to solve the observability gap in production AI by capturing every request, evaluating responses dynamically using an LLM-as-a-judge, and powering high-speed analytics dashboards.
 
+## 🎥 Video Demonstration
+
+Watch the complete video walkthrough of the Verdict AI platform:
+[**Verdict AI Demo Video**](https://drive.google.com/file/d/1kWbVu2sFSUQF-1HUXienPTMoFKx46Iso/view?usp=sharing)
+
+This comprehensive demonstration covers:
+- **Documentation Summary:** A high-level overview of the project's purpose, problem statement, and the unique selling proposition (USP) of building an LLM-as-a-judge observability platform.
+- **Codebase Deep Dive:** An architectural walkthrough explaining how the non-blocking SDK tracker, FastAPI ingestion layer, Kafka event pipeline, and ClickHouse analytics engine seamlessly work together.
+- **Stress Testing the Final Product:** Live execution of the demo app, pushing various prompts to the pipeline, and watching the dashboard update in real-time as the 70B Judge catches hallucinations and scores responses.
+
 ## 🎯 Project Goal
 The primary objective of this project is to build an instrument panel for AI systems capable of answering critical observability questions:
 - **Quality Trends:** Is the AI's response quality improving or degrading?
